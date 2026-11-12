@@ -1,0 +1,82 @@
+{
+  "schema": 1,
+  "id": "tahoe",
+  "category": "launchers",
+  "version": "1.0.4",
+  "destination": "ryoku/launchers/tahoe",
+  "files": [
+    {
+      "source": "LICENSE",
+      "destination": "LICENSE",
+      "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+      "mode": "0644",
+      "size": 35149,
+      "install": true
+    },
+    {
+      "source": "Main.qml",
+      "destination": "Main.qml",
+      "sha256": "4294d60128ef52d695b34c33d2c08e67b7627684ffab24a9d14e367942f1e6b4",
+      "mode": "0644",
+      "size": 4816,
+      "install": true
+    },
+    {
+      "source": "NativeGlass.qml",
+      "destination": "NativeGlass.qml",
+      "sha256": "3723db9384470bb84fb08b40c700b332520f5e1df8d23c1202d412d71dd7ca56",
+      "mode": "0644",
+      "size": 2217,
+      "install": true
+    },
+    {
+      "source": "Preferences.qml",
+      "destination": "Preferences.qml",
+      "sha256": "e9a8928fe4988fff3522a9a919ecbe790efdb5316a2dd7fa81c5d6966b213cb4",
+      "mode": "0644",
+      "size": 2581,
+      "install": true
+    },
+    {
+      "source": "README.md",
+      "destination": "README.md",
+      "sha256": "70a772cc26c2dc0593b80905a4942a6b6caeb8ffa00debaf46d5d6980a2e65cb",
+      "mode": "0644",
+      "size": 2610,
+      "install": true
+    },
+    {
+      "source": "Sheet.qml",
+      "destination": "Sheet.qml",
+      "sha256": "3e88327b28301306795328e0c35e2f99e00b72ab0818673093f81d8461d47b74",
+      "mode": "0644",
+      "size": 15126,
+      "install": true
+    },
+    {
+      "source": "assets/preview.webp",
+      "destination": "assets/preview.webp",
+      "sha256": "3b19bf8f259dfabcabaa87f0c911633244c9858247e0028da0bf09ef9f6e47cf",
+      "mode": "0644",
+      "size": 14434,
+      "install": false
+    },
+    {
+      "source": "lib/catalog.js",
+      "destination": "lib/catalog.js",
+      "sha256": "f9d88b2f7d74f171d55f2ea38c8aef7b3bc06fb08b9469102dab1770940fc968",
+      "mode": "0644",
+      "size": 1929,
+      "install": true
+    },
+    {
+      "source": "settings.json",
+      "destination": "settings.json",
+      "sha256": "a5871559934a626ba183eb0ccfe4a741dd6f49fa58d10655446581619228d80f",
+      "mode": "0644",
+      "size": 73,
+      "install": true
+    }
+  ],
+  "license": "GPL-3.0-or-later"
+}

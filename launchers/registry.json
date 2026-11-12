@@ -102,6 +102,30 @@
       "lastUpdated": "2026-11-04",
       "official": false,
       "license": "GPL-3.0-only"
+    },
+    {
+      "id": "tahoe",
+      "name": "Tahoe",
+      "version": "1.0.4",
+      "path": "launchers/tahoe",
+      "author": "eduardoaugustolb",
+      "upstream": "https://github.com/eduardoaugustolb/ryostore/tree/feat/tahoe-launcher/launchers/tahoe",
+      "summary": "Compact Applications palette with native Ryoku Liquid Glass",
+      "description": "Searchable app grid with category pills, configurable material and Dynamic Island bubble motion.",
+      "tags": [
+        "macos",
+        "liquid-glass",
+        "grid"
+      ],
+      "accent": "#d8c9b8",
+      "surface": "#202024",
+      "preview": "assets/preview.webp",
+      "screenshots": [],
+      "manifest": "manifest.json",
+      "manifestSha256": "7b731cd29982e753da43c8a01c78948f696993fde2a1048da6a7625cc7fbbcc6",
+      "lastUpdated": "2026-11-12",
+      "official": false,
+      "license": "GPL-3.0-or-later"
     }
   ]
 }
