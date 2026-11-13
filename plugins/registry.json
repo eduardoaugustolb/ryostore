@@ -250,7 +250,6 @@
       ],
       "lastUpdated": "2026-08-12"
     },
-
     {
       "id": "obsidian",
       "name": "Obsidian",
@@ -421,12 +420,12 @@
     },
     {
       "id": "public-ip",
-      "name": "IP P\u00fablica",
+      "name": "IP Pública",
       "version": "0.1.0",
       "path": "plugins/public-ip",
       "author": "vampirejsv <vampirejsv@local>",
-      "summary": "Muestra la IP p\u00fablica actual (consultando https://checkip.",
-      "description": "Muestra la IP p\u00fablica actual (consultando https://checkip.amazonaws.com/) en la barra; un clic la copia al portapapeles.",
+      "summary": "Muestra la IP pública actual (consultando https://checkip.",
+      "description": "Muestra la IP pública actual (consultando https://checkip.amazonaws.com/) en la barra; un clic la copia al portapapeles.",
       "tags": [
         "bar-widget"
       ],
@@ -439,7 +438,7 @@
       "manifest": "product-manifest.json",
       "manifestSha256": "eced7c39a65f038744a15ea4577d65648243e948521fa46d80b1f107eb9b2cc0",
       "official": false,
-      "tagline": "Muestra la IP p\u00fablica actual (consultando https://checkip.",
+      "tagline": "Muestra la IP pública actual (consultando https://checkip.",
       "icon": "public",
       "hosts": [
         "topbarGlyph"
@@ -1353,6 +1352,198 @@
         "topbarGlyph"
       ],
       "lastUpdated": "2026-11-05"
+    },
+    {
+      "id": "tahow-cpu",
+      "name": "Tahow CPU",
+      "version": "0.1.0",
+      "path": "plugins/tahow-cpu",
+      "author": "Eduardo Augusto",
+      "official": false,
+      "license": "AGPL-3.0-only",
+      "upstream": "https://github.com/eduardoaugustolb/Tahow",
+      "summary": "Live processor utilization.",
+      "tags": [
+        "tahow",
+        "desktop-widget",
+        "cpu"
+      ],
+      "accent": "#9fc9ff",
+      "surface": "#172131",
+      "preview": "assets/preview-widget.png",
+      "screenshots": [],
+      "manifest": "product-manifest.json",
+      "manifestSha256": "a65d1c950563acad6596bd83296bb1178d989ae0ba2436d869900fd09af4f9db",
+      "lastUpdated": "2026-11-13",
+      "description": "Live processor utilization."
+    },
+    {
+      "id": "tahow-temperature",
+      "name": "Tahow Temperature",
+      "version": "0.1.0",
+      "path": "plugins/tahow-temperature",
+      "author": "Eduardo Augusto",
+      "official": false,
+      "license": "AGPL-3.0-only",
+      "upstream": "https://github.com/eduardoaugustolb/Tahow",
+      "summary": "Available hardware temperature sensors.",
+      "tags": [
+        "tahow",
+        "desktop-widget",
+        "temperature"
+      ],
+      "accent": "#9fc9ff",
+      "surface": "#172131",
+      "preview": "assets/preview-widget.png",
+      "screenshots": [],
+      "manifest": "product-manifest.json",
+      "manifestSha256": "424599848495cf796f056ae3605ad02d06547b53a85ec4d430a4f0dddab97070",
+      "lastUpdated": "2026-11-13",
+      "description": "Available hardware temperature sensors."
+    },
+    {
+      "id": "tahow-disk",
+      "name": "Tahow Disk",
+      "version": "0.1.0",
+      "path": "plugins/tahow-disk",
+      "author": "Eduardo Augusto",
+      "official": false,
+      "license": "AGPL-3.0-only",
+      "upstream": "https://github.com/eduardoaugustolb/Tahow",
+      "summary": "Used and available space on the root filesystem.",
+      "tags": [
+        "tahow",
+        "desktop-widget",
+        "disk"
+      ],
+      "accent": "#9fc9ff",
+      "surface": "#172131",
+      "preview": "assets/preview-widget.png",
+      "screenshots": [],
+      "manifest": "product-manifest.json",
+      "manifestSha256": "545c905d6146998c56ae95d3e89da094eee14045531eb04c03315e0c69864c2b",
+      "lastUpdated": "2026-11-13",
+      "description": "Used and available space on the root filesystem."
+    },
+    {
+      "id": "tahow-memory",
+      "name": "Tahow Memory",
+      "version": "0.1.0",
+      "path": "plugins/tahow-memory",
+      "author": "Eduardo Augusto",
+      "official": false,
+      "license": "AGPL-3.0-only",
+      "upstream": "https://github.com/eduardoaugustolb/Tahow",
+      "summary": "Used and available system memory.",
+      "tags": [
+        "tahow",
+        "desktop-widget",
+        "memory"
+      ],
+      "accent": "#9fc9ff",
+      "surface": "#172131",
+      "preview": "assets/preview-widget.png",
+      "screenshots": [],
+      "manifest": "product-manifest.json",
+      "manifestSha256": "541bfcefa13f0fd745cb5f31d1683756b26e846333059cd7999c19d117be31be",
+      "lastUpdated": "2026-11-13",
+      "description": "Used and available system memory."
+    },
+    {
+      "id": "tahow-session",
+      "name": "Tahow Session",
+      "version": "0.1.0",
+      "path": "plugins/tahow-session",
+      "author": "Eduardo Augusto",
+      "official": false,
+      "license": "AGPL-3.0-only",
+      "upstream": "https://github.com/eduardoaugustolb/Tahow",
+      "summary": "Explicit lock, suspend and session actions.",
+      "tags": [
+        "tahow",
+        "desktop-widget",
+        "session"
+      ],
+      "accent": "#9fc9ff",
+      "surface": "#172131",
+      "preview": "assets/preview-widget.png",
+      "screenshots": [],
+      "manifest": "product-manifest.json",
+      "manifestSha256": "27e128f18cc94dd12e9a47cb2348b6113b9051e2de86e3fb234ad067badfe628",
+      "lastUpdated": "2026-11-13",
+      "description": "Explicit lock, suspend and session actions."
+    },
+    {
+      "id": "tahow-clock",
+      "name": "Tahow Clock",
+      "version": "0.1.0",
+      "path": "plugins/tahow-clock",
+      "author": "Eduardo Augusto",
+      "official": false,
+      "license": "AGPL-3.0-only",
+      "upstream": "https://github.com/eduardoaugustolb/Tahow",
+      "summary": "Local time and date.",
+      "tags": [
+        "tahow",
+        "desktop-widget",
+        "clock"
+      ],
+      "accent": "#9fc9ff",
+      "surface": "#172131",
+      "preview": "assets/preview-widget.png",
+      "screenshots": [],
+      "manifest": "product-manifest.json",
+      "manifestSha256": "f67d8286ead14e955f4c2b84441a1e5c04b1289a1f04b0a246777ccb3cd576dc",
+      "lastUpdated": "2026-11-13",
+      "description": "Local time and date."
+    },
+    {
+      "id": "tahow-media",
+      "name": "Tahow Media",
+      "version": "0.1.0",
+      "path": "plugins/tahow-media",
+      "author": "Eduardo Augusto",
+      "official": false,
+      "license": "AGPL-3.0-only",
+      "upstream": "https://github.com/eduardoaugustolb/Tahow",
+      "summary": "Playback and controls for available MPRIS players.",
+      "tags": [
+        "tahow",
+        "desktop-widget",
+        "media"
+      ],
+      "accent": "#9fc9ff",
+      "surface": "#172131",
+      "preview": "assets/preview-widget.png",
+      "screenshots": [],
+      "manifest": "product-manifest.json",
+      "manifestSha256": "24fe86c99ddfb5c3ab5d2c5c22d6531def8d9e69ecbba7adfe5ceaabbe940947",
+      "lastUpdated": "2026-11-13",
+      "description": "Playback and controls for available MPRIS players."
+    },
+    {
+      "id": "tahow-github",
+      "name": "Tahow GitHub",
+      "version": "0.1.0",
+      "path": "plugins/tahow-github",
+      "author": "Eduardo Augusto",
+      "official": false,
+      "license": "AGPL-3.0-only",
+      "upstream": "https://github.com/eduardoaugustolb/Tahow",
+      "summary": "Public GitHub contribution calendar with year navigation.",
+      "description": "Public GitHub contribution calendar with year navigation.",
+      "tags": [
+        "tahow",
+        "desktop-widget",
+        "github"
+      ],
+      "accent": "#9fc9ff",
+      "surface": "#172131",
+      "preview": "assets/preview-widget.png",
+      "screenshots": [],
+      "manifest": "product-manifest.json",
+      "manifestSha256": "8d51ac9edf4fb41d53f0644264584925bdf190593ae9bf14caf9f0b2110963aa",
+      "lastUpdated": "2026-11-13"
     }
   ]
 }
