@@ -1373,7 +1373,7 @@
       "preview": "assets/preview-widget.png",
       "screenshots": [],
       "manifest": "product-manifest.json",
-      "manifestSha256": "5a080e5b5bd1548cee4b7ec698acee1aa8c6becb49c99514ae90e3bc18d447a2",
+      "manifestSha256": "15939d2bf64c6849bdd5c73a258ecb1af4d4af22e3ff45bcc0779afb8c89c4b5",
       "lastUpdated": "2026-11-13",
       "description": "Live processor utilization."
     },
@@ -1397,7 +1397,7 @@
       "preview": "assets/preview-widget.png",
       "screenshots": [],
       "manifest": "product-manifest.json",
-      "manifestSha256": "515a980e3afb6939b84d85b022ca1d78c2bb40d94a4d1e048ef209370f03f3ab",
+      "manifestSha256": "67ecc1dcff4d1ff5b8884eb1d426ba5f4d5e3a729fbc656080dc4870f197a7a6",
       "lastUpdated": "2026-11-13",
       "description": "Available hardware temperature sensors."
     },
@@ -1421,7 +1421,7 @@
       "preview": "assets/preview-widget.png",
       "screenshots": [],
       "manifest": "product-manifest.json",
-      "manifestSha256": "714d3ab27a69e1462bff08f7ade095c3fb753379daa782fbe451e790878757a6",
+      "manifestSha256": "ace66d6f00dddbd53a348d832fb3af345d51c9fa0259d120160cbd118d9b38b7",
       "lastUpdated": "2026-11-13",
       "description": "Used and available space on the root filesystem."
     },
@@ -1445,7 +1445,7 @@
       "preview": "assets/preview-widget.png",
       "screenshots": [],
       "manifest": "product-manifest.json",
-      "manifestSha256": "37411c2c185ffe3ec51ea1031c9c6eb8e3402fb70c79e63285a2b1f344f83548",
+      "manifestSha256": "9cdaac37a6739ff3c1b3b55c79cff9c085f2856a787e51c4ef83831737902995",
       "lastUpdated": "2026-11-13",
       "description": "Used and available system memory."
     },
@@ -1469,7 +1469,7 @@
       "preview": "assets/preview-widget.png",
       "screenshots": [],
       "manifest": "product-manifest.json",
-      "manifestSha256": "66358dadc425f11b29ba459123b44d7ebf5e1e47ba5bf06ffaef66d161ed7111",
+      "manifestSha256": "6432209b3a2e0775dba59d26d9949e246ab8e7afc26eacc05df7ec3a58a0677d",
       "lastUpdated": "2026-11-13",
       "description": "Explicit lock, suspend and session actions."
     },
@@ -1493,7 +1493,7 @@
       "preview": "assets/preview-widget.png",
       "screenshots": [],
       "manifest": "product-manifest.json",
-      "manifestSha256": "898b9ac9bb82fe7e38ea87135c372fe9aae7771e1198ffd3c875e7cae86e4b25",
+      "manifestSha256": "a34f76aefbb5efa1d6734621a8ced57dff16ceb65ba59aa8a4be8f2f70aba0b0",
       "lastUpdated": "2026-11-13",
       "description": "Local time and date."
     },
@@ -1517,7 +1517,7 @@
       "preview": "assets/preview-widget.png",
       "screenshots": [],
       "manifest": "product-manifest.json",
-      "manifestSha256": "67f88dcf55f0ebe60b26d243715c5ca07aa6f39f30c9e57fc0818f70495f7895",
+      "manifestSha256": "6393cc1805f48c41dcf2f8fec44e261409a3d37a32049e53377abeee21dfb2ac",
       "lastUpdated": "2026-11-13",
       "description": "Playback and controls for available MPRIS players."
     },
@@ -1542,7 +1542,7 @@
       "preview": "assets/preview-widget.png",
       "screenshots": [],
       "manifest": "product-manifest.json",
-      "manifestSha256": "d2c50a2c109f1cdca8b320b6ff6f546dbe3e3da1b59ec5fb52ba5e74340ca3d5",
+      "manifestSha256": "757f6863707b2db61a36881c1c15ed8d56cab7e0814d0e9d8d144ed38b3b0019",
       "lastUpdated": "2026-11-13"
     }
   ]
