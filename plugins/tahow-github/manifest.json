@@ -185,16 +185,16 @@
       "source": "README.md",
       "destination": "README.md",
       "mode": "0644",
-      "size": 1023,
-      "sha256": "81d273f1d1fe413e9e82af10233833999c913e9e02ba078cbf02d15f5b5ef980",
+      "size": 1077,
+      "sha256": "3ac2b7d439b76b861b3b2ded9111f10c19de876eb8f04505fdf189945d8ef30a",
       "install": true
     },
     {
       "source": "assets/preview-widget.png",
       "destination": "assets/preview-widget.png",
       "mode": "0644",
-      "size": 48484,
-      "sha256": "a373068d456bf1b3f5a3eec9504233d2393447bbb5ca51f510e66129d73b7979",
+      "size": 21382,
+      "sha256": "479176f4e1cd4159673271212ec048642b1cb2b1f0633e9b3b6a178face482d6",
       "install": false
     },
     {
