@@ -303,7 +303,7 @@
     {
       "id": "dynamic-island",
       "name": "Dynamic Island",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "path": "barstyles/dynamic-island",
       "author": "Alan-Betty",
       "upstream": "https://github.com/Alan-Betty/quickshell-DynamicIsland",
@@ -322,7 +322,7 @@
       "preview": "assets/preview.webp",
       "screenshots": [],
       "manifest": "manifest.json",
-      "manifestSha256": "778c1aa6d6e86d626236c1338b6028efa3abaef007a9396c4816b93852068575",
+      "manifestSha256": "079d3bfdb791b152828c5f0ba0dcf2f587c3d2226ff04328270ecebb2c79c7e8",
       "lastUpdated": "2026-11-17",
       "official": false,
       "license": "MIT"

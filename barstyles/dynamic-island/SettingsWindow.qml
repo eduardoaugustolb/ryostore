@@ -701,7 +701,7 @@ FloatingWindow {
             width: parent ? parent.width : 0
             Section {
                 title: "Global shortcuts"
-                footer: "The island registers these through the compositor's global-shortcut protocol. Bind them in your desktop's shortcut settings."
+                footer: "Keep one launcher action per key combination. For Super+Space, you can select Dynamic Island in Ryoku Settings → App Launcher."
                 ValueRow { label: "App launcher"; value: "quickshell:islandLauncher" }
                 ValueRow { label: "Open / close island"; value: "quickshell:islandToggle" }
                 ValueRow { label: "Notification Center"; value: "quickshell:islandCenter" }

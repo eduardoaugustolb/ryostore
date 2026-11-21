@@ -2,6 +2,29 @@
   "schema": 1,
   "launchers": [
     {
+      "id": "dynamic-island",
+      "name": "Dynamic Island",
+      "version": "1.0.0",
+      "path": "launchers/dynamic-island",
+      "author": "Alan-Betty",
+      "upstream": "https://github.com/Alan-Betty/quickshell-DynamicIsland",
+      "summary": "Dynamic Island app search",
+      "description": "A top-centered search panel for apps, quick calculations and explicit shell commands. Choose it in Ryoku Settings to open it with the standard launcher shortcut.",
+      "tags": [
+        "search",
+        "island"
+      ],
+      "accent": "#0a84ff",
+      "surface": "#0d0d10",
+      "preview": "assets/preview.webp",
+      "screenshots": [],
+      "manifest": "manifest.json",
+      "manifestSha256": "4c9fa83b1460b65dfc1864c7933b32eaf398f39db1d41b4a356a24b2c0986270",
+      "lastUpdated": "2026-11-21",
+      "official": false,
+      "license": "MIT"
+    },
+    {
       "id": "tatami",
       "name": "Tatami",
       "version": "1.1.0",

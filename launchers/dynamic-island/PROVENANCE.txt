@@ -1,0 +1,4 @@
+LauncherPage.qml, Icon.qml and Txt.qml are adapted from the RyoStore
+Dynamic Island bar port of Alan Betty's quickshell-DynamicIsland (MIT).
+The standalone host uses Ryoku's palette, app launching service and
+launcher lifecycle.

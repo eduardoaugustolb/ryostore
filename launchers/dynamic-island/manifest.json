@@ -1,0 +1,74 @@
+{
+  "schema": 1,
+  "id": "dynamic-island",
+  "category": "launchers",
+  "version": "1.0.0",
+  "destination": "ryoku/launchers/dynamic-island",
+  "files": [
+    {
+      "source": "Icon.qml",
+      "destination": "Icon.qml",
+      "sha256": "6c4360205ebe14b6fb29e112ad63836d7760a48cc60ec98952021534369c4105",
+      "mode": "0644",
+      "size": 679,
+      "install": true
+    },
+    {
+      "source": "LICENSE",
+      "destination": "LICENSE",
+      "sha256": "055aeb4d33b97b531d78a1f8d67515fa53fdea00a904048cf06b46eeba4ca987",
+      "mode": "0644",
+      "size": 1067,
+      "install": true
+    },
+    {
+      "source": "LauncherPage.qml",
+      "destination": "LauncherPage.qml",
+      "sha256": "079143a3aae82b768170b3b2f64e073f96cbaa4f1cf1ceea571b091233c0bb2f",
+      "mode": "0644",
+      "size": 13212,
+      "install": true
+    },
+    {
+      "source": "Main.qml",
+      "destination": "Main.qml",
+      "sha256": "c1900da42839f62450ea902e7d123481df42549c79440a289750b947a5ab8ca7",
+      "mode": "0644",
+      "size": 1759,
+      "install": true
+    },
+    {
+      "source": "PROVENANCE.txt",
+      "destination": "PROVENANCE.txt",
+      "sha256": "90ab6bae37c7860481d8afbb1c1354a5b14d6f4011d5257a9199636b789bbd8a",
+      "mode": "0644",
+      "size": 229,
+      "install": true
+    },
+    {
+      "source": "README.md",
+      "destination": "README.md",
+      "sha256": "f59d9f7f113a417ae891b2d46b38b60fa8b7658f132fda444f019d2733c54679",
+      "mode": "0644",
+      "size": 654,
+      "install": true
+    },
+    {
+      "source": "Txt.qml",
+      "destination": "Txt.qml",
+      "sha256": "acfdb3c292f76d466aa0b18d91b0990c473df90931910a2a935929e16b8a340b",
+      "mode": "0644",
+      "size": 480,
+      "install": true
+    },
+    {
+      "source": "assets/preview.webp",
+      "destination": "assets/preview.webp",
+      "sha256": "db9ae616cb6dc469e21b1d2130375ab01afd556bb3a4b4df6858a16d1c22b752",
+      "mode": "0644",
+      "size": 19312,
+      "install": false
+    }
+  ],
+  "license": "MIT"
+}

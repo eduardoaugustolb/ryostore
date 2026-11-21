@@ -34,26 +34,20 @@ Item {
         Theme.dark;
     }
 
-    // The desktop's surface bus routes the stock launcher/settings calls to
-    // the island's own surfaces, like the shell's built-in full-desktop
-    // styles do. Other routes belong to the shell and are left alone.
+    // The shell owns launcher requests. The island launcher uses its own
+    // shortcut and IPC so a shared request cannot open both launchers.
     Connections {
         target: scene.primary ? Shell.ShellState : null
 
         function onSurfaceRequested(id, mon, context): void {
             const base = String(id).split("#")[0];
-            const screen = String(mon || "");
-            if (base === "launcher")
-                Hub.openLauncher(screen !== "" ? screen : "");
-            else if (base === "settings")
+            if (base === "settings")
                 Hub.openSettings();
         }
 
         function onSurfaceClosed(id, mon): void {
             const base = String(id).split("#")[0];
-            if (base === "launcher")
-                Hub.closeLauncher();
-            else if (base === "settings")
+            if (base === "settings")
                 Hub.settingsOpen = false;
         }
     }

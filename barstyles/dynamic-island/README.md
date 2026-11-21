@@ -44,7 +44,7 @@ itself:
 ## Open surfaces
 
 ```sh
-qs ipc call shell openSurface '' launcher    # island app launcher
+qs ipc call island launcher                  # toggle island app launcher
 qs ipc call shell openSurface '' settings    # island settings window
 qs ipc call island toggle|center|launcher|settings|playPause|...
 ```
@@ -53,6 +53,12 @@ The island also registers global shortcuts (Wayland global-shortcut
 protocol): `quickshell:islandLauncher`, `quickshell:islandToggle`,
 `quickshell:islandCenter`, `quickshell:islandSettings`. Bind them in your
 desktop's shortcut settings — the island's settings window lists them.
+
+To use Dynamic Island search on **Super+Space**, install **Dynamic Island**
+from RyoStore → App launchers and select it in Ryoku Settings → App Launcher.
+Keep the standard Ryoku launcher action on that chord. The dedicated
+`quickshell:islandLauncher` shortcut opens search inside the bar and can
+use another chord.
 
 ## Settings
 

@@ -10,7 +10,8 @@ following Ryoku rewrites:
 
 - shell.qml is replaced by Scene.qml, the Ryoku bar product entry: one island
   overlay per screen, singletons armed on the primary, and the desktop's
-  surface bus routes `launcher` and `settings` to the island's surfaces.
+  surface bus routes `settings` to the island. The island launcher has its
+  own shortcut and IPC entry point.
 - IslandWindow.qml: Hyprland monitor/fullscreen state moves to the neutral Wm
   facade (Wm.focusedOutput, Wm.outputHasFullscreen). The hyprctl gaps_out
   probe becomes an "Outer gaps" setting. HyprlandFocusGrab is replaced by a
